@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>belajar bootstrap</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target-list" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <strong><a class="navbar-brand" href="#">SEKOLAH KODING</a></strong>
+      </div>
+      <div class="collapse navbar-collapse" id="target-list">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">FORUM</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <form role="search" class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="cari...">
+            <button type="submit" class="btn btn-primary">Cari</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>WELCOME TO CODING SCHOOL</h1>
+        <p>Coding School adalah tempat belajar ilmu IT dan pemprogramannya serta belajar untuk mengaplikasikannya</p>
+        <a href="#" class="btn btn-primary btn-lg" role="button">Lihat Kelas</a>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <a href="#"><img src="twitter.jpg" class="img-circle" width="300px"></a>
+              <div class="caption">
+                  <h3>BELAJAR BOOTSTRAP</h3>
+                  <p>Belajar Bootstrap dengan tekad yang kuat</p>
+                  <a href="#" class="btn btn-primary">Lihat Disini</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <a href="#"><img src="html_icon.png" class="img-circle"  width="300px"></a>
+              <div class="caption">
+                  <h3>BELAJAR HTML</h3>
+                  <p>Belajar HTML dengan kesungguhan hati</p>
+                  <a href="#" class="btn btn-primary">Lihat Disini</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <a href="#"><img src="php.png" class="img-circle"  width="300px"></a>
+              <div class="caption">
+                  <h3>BELAJAR PHP</h3>
+                  <p>Belajar PHP dengan niat yang tulus</p>
+                  <a href="#" class="btn btn-primary">Lihat Disini</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <a href="#"><img src="css.png" class="img-circle" width="300px"></a>
+              <div class="caption">
+                  <h3>BELAJAR CSS</h3>
+                  <p>Belajar CSS dengan imajinasi yang hebat </p>
+                  <a href="#" class="btn btn-primary">Lihat Disini</a>
+              </div>
+          </div>
+        </div>
+      </div> 
+      <div class="content"><h4>CONTOH CODING SCHOOL</h4></div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controller="home"         role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#kelas" aria-controller="kelas" role="tab" data-toggle="tab">Kelas</a></li>
+            <li role="presentation"><a href="#portofolio" aria-controller="portofolio" role="tab" data-toggle="tab">Portofolio</a></li>
+          </ul>
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="home">Belajar apa itu framework bootstrap, apa kegunannya dan bagaimana cara menggunakan bootstrap</div>
+              <div role="tabpanel" class="tab-pane" id="kelas">Melihat cara menggunakan komponen komponen lain pada bootstrap diantaranya Alerts, tab dan embed</div>
+              <div role="tabpanel" class="tab-pane" id="portofolio">Video tutorial web development dan programming dalam bahasa Indonesia. Luaskan ilmu, luaskan manfaat</div>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="420" height="315" src="https://www.youtube.com/embed/FIMffcfyfGM" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+        <div class="footer">
+            <p>&copy; Copyright 2016 by Furwadi </p>
+        </div>
+    </div>
+    <br><br><br>
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+   
+  </body>
+</html>
